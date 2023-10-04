@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    margin: 0 150px;
+    padding-top: 20px;
+}
+
+hr {
+    margin: 10px 0;
+}
+
+header {
+    text-align: center;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    color: rgb(195, 43, 226);
+    margin-bottom: 15px;
+}
+
+header nav p {
+    margin-right: 20px;
+}
+
+header img {
+    width: 250px;
+}
+
+.banner {
+    background-image: url(img/slider_spec_pic1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.tovar-line {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 100px;
+    margin-bottom: 20px;
+}
+
+.tovar {
+    text-align: center;
+    /* border: 1px solid red; */
+    width: 200px;
+    height: 250px;
+    padding: 15px;
+}
+
+.tovarimage {
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    height: 170px;
+
+}
+
+.tovarimage[id="image1"] {
+    background-image: url(img/new1.PNG);
+}
+
+.tovarimage[id="image2"] {
+    background-image: url(img/new2.PNG);
+}
+
+.tovarimage[id="image3"] {
+    background-image: url(img/new3.PNG);
+}
+
+.tovarimage[id="image4"] {
+    background-image: url(img/new4.PNG);
+}
+
+.tovarimage[id="image5"] {
+    background-image: url(img/new5.PNG);
+}
+
+.tovar p {
+    margin: 20px auto 10px auto;
+}
+
+/*  */
+.about p {
+    margin: 20px;
+}
+
+/*  */
+
+.feedback form {
+    width: 800px;
+    /* border: 1px solid red; */
+    text-align: right;
+    margin: 25px auto;
+    /* padding-right: 100px; */
+}
+
+.feedback form label {
+    margin-right: 10px;
+}
+
+form p {
+    margin-right: 220px;
+    margin-bottom: 10px;
+}
+
+form p input {
+    width: 300px;
+    border-radius: 5px;
+    border: solid 1px grey;
+}
+
+.feedback form textarea {
+    width: 350px;
+    height: 110px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+form input[type="submit"],
+input[type="reset"] {
+    border-radius: 5px;
+    width: 100px;
+    height: 20px;
+    border: 1px solid grey;
+    margin-left: 10px;
+}
+
+/*  */
+footer {
+    text-align: center;
+    padding: 20px 0;
+}
